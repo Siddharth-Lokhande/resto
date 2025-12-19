@@ -184,7 +184,7 @@ const Home = () => {
             <header className="header" data-header>
                 <div className="container">
                     <a href="#" className="logo">
-                        <img src="/assets/images/logo.svg" width="160" height="50" alt="Grilli - Home" />
+                        <img src={`${import.meta.env.BASE_URL}assets/images/logo.svg`} width="160" height="50" alt="Grilli - Home" />
                     </a>
 
                     <nav className="navbar" data-navbar>
@@ -193,7 +193,7 @@ const Home = () => {
                         </button>
 
                         <a href="#" className="logo">
-                            <img src="/assets/images/logo.svg" width="160" height="50" alt="Grilli - Home" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/logo.svg`} width="160" height="50" alt="Grilli - Home" />
                         </a>
 
                         <ul className="navbar-list">
@@ -272,7 +272,7 @@ const Home = () => {
                         <ul className="hero-slider" data-hero-slider>
                             <li className="slider-item active" data-hero-slider-item>
                                 <div className="slider-bg">
-                                    <img src="/assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" className="img-cover" />
+                                    <img src={`${import.meta.env.BASE_URL}assets/images/hero-slider-1.jpg`} width="1880" height="950" alt="" className="img-cover" />
                                 </div>
                                 <p className="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
                                 <h1 className="display-1 hero-title slider-reveal">
@@ -290,7 +290,7 @@ const Home = () => {
 
                             <li className="slider-item" data-hero-slider-item>
                                 <div className="slider-bg">
-                                    <img src="/assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" className="img-cover" />
+                                    <img src={`${import.meta.env.BASE_URL}assets/images/hero-slider-2.jpg`} width="1880" height="950" alt="" className="img-cover" />
                                 </div>
                                 <p className="label-2 section-subtitle slider-reveal">delightful experience</p>
                                 <h1 className="display-1 hero-title slider-reveal">
@@ -308,7 +308,7 @@ const Home = () => {
 
                             <li className="slider-item" data-hero-slider-item>
                                 <div className="slider-bg">
-                                    <img src="/assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" className="img-cover" />
+                                    <img src={`${import.meta.env.BASE_URL}assets/images/hero-slider-3.jpg`} width="1880" height="950" alt="" className="img-cover" />
                                 </div>
                                 <p className="label-2 section-subtitle slider-reveal">amazing & delicious</p>
                                 <h1 className="display-1 hero-title slider-reveal">
@@ -334,7 +334,7 @@ const Home = () => {
                         </button>
 
                         <a href="#" className="hero-btn has-after">
-                            <img src="/assets/images/hero-icon.png" width="48" height="48" alt="booking icon" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/hero-icon.png`} width="48" height="48" alt="booking icon" />
                             <span className="label-2 text-center span">Book A Table</span>
                         </a>
                     </section>
@@ -355,7 +355,7 @@ const Home = () => {
                                     <div className="service-card">
                                         <a href="#" className="has-before hover:shine">
                                             <figure className="card-banner img-holder" style={{ '--width': '285', '--height': '336' }}>
-                                                <img src="/assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast" className="img-cover" />
+                                                <img src={`${import.meta.env.BASE_URL}assets/images/service-1.jpg`} width="285" height="336" loading="lazy" alt="Breakfast" className="img-cover" />
                                             </figure>
                                         </a>
                                         <div className="card-content">
@@ -371,7 +371,7 @@ const Home = () => {
                                     <div className="service-card">
                                         <a href="#" className="has-before hover:shine">
                                             <figure className="card-banner img-holder" style={{ '--width': '285', '--height': '336' }}>
-                                                <img src="/assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers" className="img-cover" />
+                                                <img src={`${import.meta.env.BASE_URL}assets/images/service-2.jpg`} width="285" height="336" loading="lazy" alt="Appetizers" className="img-cover" />
                                             </figure>
                                         </a>
                                         <div className="card-content">
@@ -387,7 +387,7 @@ const Home = () => {
                                     <div className="service-card">
                                         <a href="#" className="has-before hover:shine">
                                             <figure className="card-banner img-holder" style={{ '--width': '285', '--height': '336' }}>
-                                                <img src="/assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks" className="img-cover" />
+                                                <img src={`${import.meta.env.BASE_URL}assets/images/service-3.jpg`} width="285" height="336" loading="lazy" alt="Drinks" className="img-cover" />
                                             </figure>
                                         </a>
                                         <div className="card-content">
@@ -400,8 +400,8 @@ const Home = () => {
                                 </li>
                             </ul>
 
-                            <img src="/assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" className="shape shape-1 move-anim" />
-                            <img src="/assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape" className="shape shape-2 move-anim" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/shape-1.png`} width="246" height="412" loading="lazy" alt="shape" className="shape shape-1 move-anim" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/shape-2.png`} width="343" height="345" loading="lazy" alt="shape" className="shape shape-2 move-anim" />
                         </div>
                     </section>
 
@@ -426,16 +426,16 @@ const Home = () => {
                             </div>
 
                             <figure className="about-banner">
-                                <img src="/assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner" className="w-100" data-parallax-item data-parallax-speed="1" />
+                                <img src={`${import.meta.env.BASE_URL}assets/images/about-banner.jpg`} width="570" height="570" loading="lazy" alt="about banner" className="w-100" data-parallax-item data-parallax-speed="1" />
                                 <div className="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
-                                    <img src="/assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt="" className="w-100" />
+                                    <img src={`${import.meta.env.BASE_URL}assets/images/about-abs-image.jpg`} width="285" height="285" loading="lazy" alt="" className="w-100" />
                                 </div>
                                 <div className="abs-img abs-img-2 has-before">
-                                    <img src="/assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="" />
+                                    <img src={`${import.meta.env.BASE_URL}assets/images/badge-2.png`} width="133" height="134" loading="lazy" alt="" />
                                 </div>
                             </figure>
 
-                            <img src="/assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" className="shape" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/shape-3.png`} width="197" height="194" loading="lazy" alt="" className="shape" />
                         </div>
                     </section>
 
@@ -443,11 +443,11 @@ const Home = () => {
           */}
                     <section className="special-dish text-center" aria-labelledby="dish-label">
                         <div className="special-dish-banner">
-                            <img src="/assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish" className="img-cover" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/special-dish-banner.jpg`} width="940" height="900" loading="lazy" alt="special dish" className="img-cover" />
                         </div>
                         <div className="special-dish-content bg-black-10">
                             <div className="container">
-                                <img src="/assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" className="abs-img" />
+                                <img src={`${import.meta.env.BASE_URL}assets/images/badge-1.png`} width="28" height="41" loading="lazy" alt="badge" className="abs-img" />
                                 <p className="section-subtitle label-2">Special Dish</p>
                                 <h2 className="headline-1 section-title">Lobster Tortellini</h2>
                                 <p className="section-text">
@@ -464,8 +464,8 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-                        <img src="/assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" className="shape shape-1" />
-                        <img src="/assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" className="shape shape-2" />
+                        <img src={`${import.meta.env.BASE_URL}assets/images/shape-4.png`} width="179" height="359" loading="lazy" alt="" className="shape shape-1" />
+                        <img src={`${import.meta.env.BASE_URL}assets/images/shape-9.png`} width="351" height="462" loading="lazy" alt="" className="shape shape-2" />
                     </section>
 
                     {/* - #MENU
@@ -474,7 +474,7 @@ const Home = () => {
 
                     {/* - #TESTIMONIALS
           */}
-                    <section className="section testi text-center has-bg-image" style={{ backgroundImage: "url('/assets/images/testimonial-bg.jpg')" }} aria-label="testimonials">
+                    <section className="section testi text-center has-bg-image" style={{ backgroundImage: "url(`${import.meta.env.BASE_URL}assets/images/testimonial-bg.jpg`)" }} aria-label="testimonials">
                         <div className="container">
                             <div className="quote">”</div>
                             <p className="headline-2 testi-text">
@@ -487,7 +487,7 @@ const Home = () => {
                                 <div className="separator"></div>
                             </div>
                             <div className="profile">
-                                <img src="/assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson" className="img" />
+                                <img src={`${import.meta.env.BASE_URL}assets/images/testi-avatar.jpg`} width="100" height="100" loading="lazy" alt="Sam Jhonson" className="img" />
                                 <p className="label-2 profile-name">Sam Jhonson</p>
                             </div>
                         </div>
@@ -554,7 +554,7 @@ const Home = () => {
                                         <span className="text text-2" aria-hidden="true">Book A Table</span>
                                     </button>
                                 </form>
-                                <div className="form-right text-center" style={{ backgroundImage: "url('/assets/images/form-pattern.png')" }}>
+                                <div className="form-right text-center" style={{ backgroundImage: "url(`${import.meta.env.BASE_URL}assets/images/form-pattern.png`)" }}>
                                     <h2 className="headline-1 text-center">Contact Us</h2>
                                     <p className="contact-label">Booking Request</p>
                                     <a href="tel:+88123123456" className="body-1 contact-number hover-underline">+88-123-123456</a>
@@ -589,7 +589,7 @@ const Home = () => {
                                 <li className="feature-item">
                                     <div className="feature-card">
                                         <div className="card-icon">
-                                            <img src="/assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon" />
+                                            <img src={`${import.meta.env.BASE_URL}assets/images/features-icon-1.png`} width="100" height="80" loading="lazy" alt="icon" />
                                         </div>
                                         <h3 className="title-2 card-title">Hygienic Food</h3>
                                         <p className="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
@@ -599,7 +599,7 @@ const Home = () => {
                                 <li className="feature-item">
                                     <div className="feature-card">
                                         <div className="card-icon">
-                                            <img src="/assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon" />
+                                            <img src={`${import.meta.env.BASE_URL}assets/images/features-icon-2.png`} width="100" height="80" loading="lazy" alt="icon" />
                                         </div>
                                         <h3 className="title-2 card-title">Fresh Environment</h3>
                                         <p className="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
@@ -609,7 +609,7 @@ const Home = () => {
                                 <li className="feature-item">
                                     <div className="feature-card">
                                         <div className="card-icon">
-                                            <img src="/assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon" />
+                                            <img src={`${import.meta.env.BASE_URL}assets/images/features-icon-3.png`} width="100" height="80" loading="lazy" alt="icon" />
                                         </div>
                                         <h3 className="title-2 card-title">Skilled Chefs</h3>
                                         <p className="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
@@ -619,15 +619,15 @@ const Home = () => {
                                 <li className="feature-item">
                                     <div className="feature-card">
                                         <div className="card-icon">
-                                            <img src="/assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon" />
+                                            <img src={`${import.meta.env.BASE_URL}assets/images/features-icon-4.png`} width="100" height="80" loading="lazy" alt="icon" />
                                         </div>
                                         <h3 className="title-2 card-title">Event & Party</h3>
                                         <p className="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
                                     </div>
                                 </li>
                             </ul>
-                            <img src="/assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape" className="shape shape-1" />
-                            <img src="/assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape" className="shape shape-2" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/shape-7.png`} width="208" height="178" loading="lazy" alt="shape" className="shape shape-1" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/shape-8.png`} width="120" height="115" loading="lazy" alt="shape" className="shape shape-2" />
                         </div>
                     </section>
 
@@ -641,7 +641,7 @@ const Home = () => {
                                 <li>
                                     <div className="event-card has-before hover:shine">
                                         <div className="card-banner img-holder" style={{ '--width': '350', '--height': '450' }}>
-                                            <img src="/assets/images/event-1.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
+                                            <img src={`${import.meta.env.BASE_URL}assets/images/event-1.jpg`} width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
                                             <time className="publish-date label-2" dateTime="2022-09-15">15/09/2022</time>
                                         </div>
                                         <div className="card-content">
@@ -656,7 +656,7 @@ const Home = () => {
                                 <li>
                                     <div className="event-card has-before hover:shine">
                                         <div className="card-banner img-holder" style={{ '--width': '350', '--height': '450' }}>
-                                            <img src="/assets/images/event-2.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
+                                            <img src={`${import.meta.env.BASE_URL}assets/images/event-2.jpg`} width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
                                             <time className="publish-date label-2" dateTime="2022-09-08">08/09/2022</time>
                                         </div>
                                         <div className="card-content">
@@ -671,7 +671,7 @@ const Home = () => {
                                 <li>
                                     <div className="event-card has-before hover:shine">
                                         <div className="card-banner img-holder" style={{ '--width': '350', '--height': '450' }}>
-                                            <img src="/assets/images/event-3.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
+                                            <img src={`${import.meta.env.BASE_URL}assets/images/event-3.jpg`} width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
                                             <time className="publish-date label-2" dateTime="2022-09-03">03/09/2022</time>
                                         </div>
                                         <div className="card-content">
@@ -694,12 +694,12 @@ const Home = () => {
 
             {/* - #FOOTER
       */}
-            <footer className="footer section has-bg-image text-center" style={{ backgroundImage: "url('/assets/images/footer-bg.jpg')" }}>
+            <footer className="footer section has-bg-image text-center" style={{ backgroundImage: "url(`${import.meta.env.BASE_URL}assets/images/footer-bg.jpg`)" }}>
                 <div className="container">
                     <div className="footer-top grid-list">
                         <div className="footer-brand has-before has-after">
                             <a href="#" className="logo">
-                                <img src="/assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home" />
+                                <img src={`${import.meta.env.BASE_URL}assets/images/logo.svg`} width="160" height="50" loading="lazy" alt="grilli home" />
                             </a>
                             <address className="body-4">
                                 Restaurant St, Delicious City, London 9578, UK

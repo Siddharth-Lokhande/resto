@@ -23,7 +23,7 @@ const Menu = () => {
                 // Map the data to include full image path from assets
                 const itemsWithImages = data.map(item => ({
                     ...item,
-                    img: `/assets/images/${item.img_name}`
+                    img: `${import.meta.env.BASE_URL}assets/images/${item.img_name}`
                 }));
 
                 setMenuItems(itemsWithImages);
@@ -116,8 +116,8 @@ const Menu = () => {
                     <span className="text text-2" aria-hidden="true">View All Menu</span>
                 </a>
 
-                <img src="/assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" className="shape shape-2 move-anim" />
-                <img src="/assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape" className="shape shape-3 move-anim" />
+                <img src={`${import.meta.env.BASE_URL}assets/images/shape-5.png`} width="921" height="1036" loading="lazy" alt="shape" className="shape shape-2 move-anim" />
+                <img src={`${import.meta.env.BASE_URL}assets/images/shape-6.png`} width="343" height="345" loading="lazy" alt="shape" className="shape shape-3 move-anim" />
             </div>
         </section>
     );
