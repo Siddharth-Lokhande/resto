@@ -148,7 +148,7 @@ const Home = () => {
                             <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
                         </div>
                         <span className="span">
-                            Restaurant St, Delicious City, London 9578, UK
+                            Restaurant St, Pune , Maharashtra , India
                         </span>
                     </address>
 
@@ -236,8 +236,8 @@ const Home = () => {
                         <div className="text-center">
                             <p className="headline-1 navbar-title">Visit Us</p>
                             <address className="body-4">
-                                Restaurant St, Delicious City, <br />
-                                London 9578, UK
+                                Restaurant St, Pune, <br />
+                                Maharashtra 411001, India
                             </address>
                             <p className="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
                             <a href="mailto:booking@grilli.com" className="body-4 sidebar-link">booking@grilli.com</a>
@@ -488,7 +488,7 @@ const Home = () => {
                             </div>
                             <div className="profile">
                                 <img src={`${import.meta.env.BASE_URL}assets/images/testi-avatar.jpg`} width="100" height="100" loading="lazy" alt="Sam Jhonson" className="img" />
-                                <p className="label-2 profile-name">Sam Jhonson</p>
+                                <p className="label-2 profile-name">Siddharth Lokhande</p>
                             </div>
                         </div>
                     </section>
@@ -702,7 +702,7 @@ const Home = () => {
                                 <img src={`${import.meta.env.BASE_URL}assets/images/logo.svg`} width="160" height="50" loading="lazy" alt="grilli home" />
                             </a>
                             <address className="body-4">
-                                Restaurant St, Delicious City, London 9578, UK
+                                Restaurant St, Pune, Maharashtra, India
                             </address>
                             <a href="mailto:booking@grilli.com" className="body-4 contact-link">booking@grilli.com</a>
                             <a href="tel:+88123123456" className="body-4 contact-link">Booking Request : +88-123-123456</a>
@@ -749,7 +749,7 @@ const Home = () => {
 
                     <div className="footer-bottom">
                         <p className="copyright">
-                            &copy; 2022 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee" target="_blank" rel="noopener noreferrer" className="link">codewithsadee</a>
+                            &copy; 2025 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/Siddharth-Lokhande" target="_blank" rel="noopener noreferrer" className="link">Siddharth-Lokhande</a>
                         </p>
                     </div>
                 </div>

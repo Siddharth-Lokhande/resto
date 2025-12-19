@@ -74,7 +74,7 @@ const Item = ({ img, alt, title, price, badge, description }) => {
                     {isAdded ? (
                         <ion-icon name="checkmark-circle" style={{ color: '#28a745', fontSize: '24px' }}></ion-icon>
                     ) : (
-                        <ion-icon name="cart-outline" style={{ fontSize: '24px' }}></ion-icon>
+                        <ion-icon name="add-outline" style={{ fontSize: '24px' }}></ion-icon>
                     )}
                 </button>
                 <div className="quantity-selector">
